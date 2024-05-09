@@ -1,0 +1,14 @@
+[
+    {
+      "url": "https://github.com/frappe/erpnext",
+      "branch": "version-15"
+    },
+    {
+        "url": "https://github.com/frappe/hrms",
+        "branch": "version-15"
+      },
+    {
+      "url": "https://oauth2:{{pat}}@gitlab.com/erp-next/erp-next-project-mgmt.git",
+      "branch": "main"
+    }
+]
