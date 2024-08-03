@@ -11,6 +11,7 @@ if ! [ -d "$DIRECTORY_NAME" ]; then
 fi
 
 cp apps.json $DIRECTORY_NAME
+cp Containerfile $DIRECTORY_NAME/images/custom/Containerfile
 cd $DIRECTORY_NAME || exit
 
 docker build \
